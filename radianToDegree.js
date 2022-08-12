@@ -1,6 +1,6 @@
 function radianToDegree(radian) {
     const degree = radian * 57.2958;
-    return degree.toFixed(2);
+    return parseFloat(degree.toFixed(2));
 }
 
 const inputRadiun = 2;
