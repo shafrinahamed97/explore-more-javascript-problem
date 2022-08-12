@@ -7,4 +7,4 @@ function isJavaScriptFile(filename) {
 
 
 }
-isJavaScriptFile(return);
+// isJavaScriptFile(filetype);
