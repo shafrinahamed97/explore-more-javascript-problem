@@ -1,10 +1,10 @@
 function isJavaScriptFile(filename) {
 
-    const filetype = 'mybiodata.jpg';
-    filetype.endsWith('.jps');
-    console.log(filename);
-    return filename;
 
-
+    if (filename.endsWith('.js')) {
+        return true;
+    }
+    else { return false }
 }
-// isJavaScriptFile(filetype);
+console.log(isJavaScriptFile("shafrin.pdf"));
+
